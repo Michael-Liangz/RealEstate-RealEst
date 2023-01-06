@@ -53,8 +53,92 @@
 }
 
 /* TODO ======================= BASE ======================= */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--body-font);
+  font-size: var(--normal-font-size);
+  background-color: var(--body-color);
+  color: var(--text-color);
+}
+
+h1,
+h2,
+h3 {
+  color: var(--title-color);
+  font-weight: var(--font-semi-bold);
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+input,
+button {
+  font-family: var(--body-font);
+  outline: none;
+  border: none;
+}
+
 /* TODO ======================= THEME ======================= */
 /* TODO ======================= VARIABLES DARK THEME ======================= */
 /* TODO ======================= COLOR CHANGE IN SOME PARTS OF THE WEBSITE, IN DARK THEME ======================= */
 /* TODO ======================= REUSABLE CSS CLASSES ======================= */
+.container {
+  max-width: 1024px;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+.grid {
+  display: grid;
+}
+
+.section {
+  padding: 4.5rem 0 2rem;
+}
+
+.section_title {
+  font-size: var(--h2-font-size);
+  margin-bottom: 1rem;
+}
+
+.section_title span {
+  color: var(--second-color);
+}
+
+.section_subtitle {
+  display: block;
+  font-size: var(--small-font-size);
+  color: var(--second-color);
+}
+
+.main {
+  overflow: hidden;
+}
+
 /* TODO ======================= HEADER & NAV ======================= */
+/* * Change background header */
+
+/* * Active link */
+
+/* TODO ======================= HOME ======================= */
+
+/* TODO ======================= BUTTON ======================= */
