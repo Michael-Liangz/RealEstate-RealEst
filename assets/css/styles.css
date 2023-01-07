@@ -435,5 +435,116 @@ button {
 }
 
 /* TODO ======================= VALUE ======================= */
+.value_container {
+  row-gap: 3rem;
+}
+
+.value_images {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.value_orbe {
+  width: 266px;
+  height: 316px;
+  background-color: hsl(228, 24%, 97%);
+  border-radius: 135px 135px 16px 16px;
+}
+
+.value_img {
+  position: absolute;
+  width: 250px;
+  height: 300px;
+  overflow: hidden;
+  border-radius: 125px 125px 12px 12px;
+  inset: 0;
+  margin: auto;
+  box-shadow: 0 16px 32px hsla(228, 66%, 25%, 0.25);
+}
+
+.value_description {
+  font-size: var(--small-font-size);
+  margin-bottom: 2rem;
+}
+
+.value_accordion {
+  display: grid;
+  row-gap: 1.5rem;
+}
+
+.value_accordion-item {
+  background-color: var(--body-color);
+  border: 2px solid var(--border-color);
+  border-radius: 0.5rem;
+  padding: 1rem 0.75rem;
+}
+
+.value_accordion-header {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.value_accordion-icon {
+  background-color: var(--first-color-lighten);
+  padding: 5px;
+  border-radius: 0.25rem;
+  font-size: 18px;
+  color: var(--first-color);
+  margin-right: 0.75rem;
+  transition: 0.3s;
+}
+
+.value_accordion-title {
+  font-size: var(--small-font-size);
+}
+
+.value_accordion-arrow {
+  display: inline-flex;
+  background-color: var(--first-color-lighten);
+  padding: 0.25rem;
+  color: var(--first-color);
+  border-radius: 2px;
+  font-size: 10px;
+  margin-left: auto;
+  transition: 0.3s;
+}
+
+.value_accordion-arrow i {
+  transition: 0.4s;
+}
+
+.value_accordion-description {
+  font-size: var(--smaller-font-size);
+  padding: 1.25rem 2.5rem 0 2.75rem;
+}
+
+.value_accordion-content {
+  overflow: hidden;
+  height: 0;
+  transition: all 0.25s ease;
+}
 
 /* * Rotate icon and add shadows */
+.accordion-open {
+  box-shadow: 0 12px 32px hsla(228, 66%, 45%, 0.1);
+}
+
+.accordion-open .value_accordion-icon {
+  box-shadow: 0 4px 4px hsla(228, 66%, 45%, 0.1);
+}
+
+.accordion-open .value_accordion-arrow {
+  box-shadow: 0 4px 4px hsla(228, 66%, 45%, 0.1);
+}
+
+.accordion-open .value_accordion-arrow i {
+  transform: rotate(-180deg);
+}
+
+/* TODO ======================= CONTACT ======================= */
+/* TODO ======================= SUBSCRIBE ======================= */
+/* TODO ======================= FOOTER ======================= */
+/* TODO ======================= SCROLL BAR ======================= */
+/* TODO ======================= SCROLL UP ======================= */
