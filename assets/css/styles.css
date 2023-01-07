@@ -207,6 +207,14 @@ button {
 }
 
 /* * Change background header */
+.scroll-header {
+  background-color: var(--body-color);
+  box-shadow: 0 1px 4px hsla(228, 4%, 15%, 0.1);
+}
+
+.scroll-header .nav_logo {
+  color: var(--first-color);
+}
 
 /* * Active link */
 
