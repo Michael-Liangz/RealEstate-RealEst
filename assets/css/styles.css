@@ -343,6 +343,23 @@ button {
 }
 
 /* TODO ======================= LOGOS ======================= */
+.logos_container {
+  padding-top: 2rem;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3rem 2rem;
+  justify-items: center;
+}
+
+.logos_img img {
+  height: 60px;
+  opacity: 0.2;
+  transition: 0.3s;
+}
+
+.logos_img img:hover {
+  opacity: 0.6;
+}
+
 /* TODO ======================= POPULAR ======================= */
 
 /* * Swiper Class */
