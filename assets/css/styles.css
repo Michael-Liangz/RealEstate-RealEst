@@ -544,6 +544,96 @@ button {
 }
 
 /* TODO ======================= CONTACT ======================= */
+.contact_container {
+  row-gap: 2rem;
+}
+
+.contact_images {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.contact_orbe {
+  width: 266px;
+  height: 316px;
+  background-color: hsl(228, 24%, 97%);
+  border-radius: 135px 135px 16px 16px;
+}
+
+.contact_img {
+  position: absolute;
+  width: 250px;
+  height: 300px;
+  overflow: hidden;
+  border-radius: 125px 125px 12px 12px;
+  inset: 0;
+  margin: auto;
+  box-shadow: 0 16px 32px hsla(228, 66%, 25%, 0.25);
+}
+
+.contact_description {
+  font-size: var(--small-font-size);
+  margin-bottom: 2.5rem;
+}
+
+.contact_card {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.25rem 0.75rem;
+}
+
+.contact_card-box {
+  background-color: var(--body-color);
+  border: 2px solid var(--border-color);
+  padding: 1.25rem 0.75rem;
+  border-radius: 0.5rem;
+  transition: 0.3s;
+}
+
+.contact_card-info {
+  display: flex;
+  align-items: flex-start;
+  column-gap: 0.75rem;
+  margin-bottom: 1.25rem;
+}
+
+.contact_card i {
+  padding: 6px;
+  background-color: var(--first-color-lighten);
+  border-radius: 6px;
+  font-size: 1.25rem;
+  color: var(--first-color);
+}
+
+.contact_card-title {
+  font-size: var(--normal-font-size);
+}
+
+.contact_card-description {
+  font-size: var(--smaller-font-size);
+}
+
+.contact_card-button {
+  font-size: var(--small-font-size);
+  padding: 14px 0;
+  width: 100%;
+  border-radius: 0.25rem;
+  background: var(--first-color-lighten);
+  color: var(--first-color);
+  font-weight: var(--font-semi-bold);
+  box-shadow: none;
+}
+
+.contact_card-button:hover {
+  background-color: var(--first-color);
+  color: #fff;
+}
+
+.contact_card-box:hover {
+  box-shadow: 0 8px 24px hsla(228, 66%, 45%, 0.1);
+}
+
 /* TODO ======================= SUBSCRIBE ======================= */
 /* TODO ======================= FOOTER ======================= */
 /* TODO ======================= SCROLL BAR ======================= */
