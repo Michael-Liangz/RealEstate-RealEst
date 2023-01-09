@@ -830,7 +830,8 @@ body.dark-theme {
   row-gap: 1.5rem;
 }
 
-.footer_copy,
+/* ? Copyright lisense */
+/* .footer_copy, */
 .footer_privacy a {
   font-size: var(--smaller-font-size);
   font-weight: var(--font-medium);
