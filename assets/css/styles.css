@@ -217,6 +217,11 @@ button {
 }
 
 /* * Active link */
+.active-link {
+  background: linear-gradient(100deg, hsl(228, 66%, 53%), hsl(228, 66%, 47%));
+  color: #fff;
+  box-shadow: 0 4px 8px hsla(228, 66%, 53%, 0.25);
+}
 
 /* TODO ======================= HOME ======================= */
 .home {
