@@ -956,4 +956,67 @@ body.dark-theme {
 }
 
 /* * for medium devices */
+@media screen and (min-width: 576px) {
+  .nav_menu {
+    width: 342px;
+  }
+
+  .home_search {
+    width: 412px;
+  }
+
+  .contact_card {
+    grid-template-columns: repeat(2, 192px);
+    justify-content: center;
+  }
+
+  .footer_content {
+    grid-template-columns: repeat(3, max-content);
+  }
+}
+
+@media screen and (min-width: 767px) {
+  .home_container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .home_orbe {
+    align-self: flex-end;
+  }
+
+  .home_data {
+    padding-bottom: 2rem;
+  }
+
+  .logos_container {
+    grid-template-columns: repeat(4, max-content);
+    justify-content: center;
+  }
+
+  .value_container,
+  .contact_container {
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+  }
+
+  .contact_images {
+    order: 1;
+  }
+
+  .contact_card {
+    justify-content: initial;
+  }
+
+  .subscribe_container {
+    padding: 3rem 13rem;
+  }
+
+  .footer_container {
+    grid-template-columns: repeat(2, max-content);
+    justify-content: space-between;
+  }
+}
+
 /* * for large devices */
+
+/* * for 2K & 4K resolution */
