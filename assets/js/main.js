@@ -125,3 +125,21 @@ themeButton.addEventListener("click", () => {
 });
 
 // TODO ======================= SCROLL REVEAL ANIMATION =======================
+const sr = ScrollReveal({
+  origin: "top",
+  distance: "60px",
+  duration: 2500,
+  delay: 400,
+  reset: true, // * digunakan agar animasinya muncul secara terus menerus
+});
+
+sr.reveal(
+  ".home_title, .popular_container, .subscribe_container, .footer_container"
+);
+sr.reveal(".home_description, .footer_info", { delay: 500 });
+sr.reveal(".home_search", { delay: 600 });
+sr.reveal(".home_value", { delay: 700 });
+sr.reveal(".home_images", { delay: 800, origin: "bottom" });
+sr.reveal(".logos_img", { interval: 100 });
+sr.reveal(".value_images, .contact_content", { origin: "left" });
+sr.reveal(".value_content, .contact_images", { origin: "right" });
